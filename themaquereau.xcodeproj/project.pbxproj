@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9104519C25C0908A00B315D0 /* themaquereauApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104519B25C0908A00B315D0 /* themaquereauApp.swift */; };
-		9104519E25C0908A00B315D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104519D25C0908A00B315D0 /* ContentView.swift */; };
+		9104519C25C0908A00B315D0 /* TheMaquereauApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104519B25C0908A00B315D0 /* TheMaquereauApp.swift */; };
+		9104519E25C0908A00B315D0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104519D25C0908A00B315D0 /* HomeView.swift */; };
 		910451A025C0908A00B315D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9104519F25C0908A00B315D0 /* Assets.xcassets */; };
-		910451A325C0908A00B315D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910451A225C0908A00B315D0 /* Preview Assets.xcassets */; };
 		910451AE25C0908B00B315D0 /* themaquereauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910451AD25C0908B00B315D0 /* themaquereauTests.swift */; };
 		910451B925C0908B00B315D0 /* themaquereauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910451B825C0908B00B315D0 /* themaquereauUITests.swift */; };
+		917E721025C74AA6004B2597 /* JsonDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E720F25C74AA6004B2597 /* JsonDataResponse.swift */; };
+		91E723B925C499C600107A59 /* DishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E723B825C499C600107A59 /* DishListView.swift */; };
+		91E723C225C49C3100107A59 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E723C125C49C3100107A59 /* Item.swift */; };
+		91E723CA25C49E1600107A59 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E723C925C49E1600107A59 /* Ingredient.swift */; };
+		CFFBA544A488874B4992CF2E /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFBA4763C8D7D54F585FD30 /* Price.swift */; };
+		CFFBAAE45393E279BAA1FC1D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFBAD1B4D4C2D59A973E54D /* Data.swift */; };
+		CFFBABAF09FD78A49D840456 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = CFFBA88B1AA37E6FCB6280AC /* items.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +40,9 @@
 
 /* Begin PBXFileReference section */
 		9104519825C0908A00B315D0 /* themaquereau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = themaquereau.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9104519B25C0908A00B315D0 /* themaquereauApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = themaquereauApp.swift; sourceTree = "<group>"; };
-		9104519D25C0908A00B315D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9104519B25C0908A00B315D0 /* TheMaquereauApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMaquereauApp.swift; sourceTree = "<group>"; };
+		9104519D25C0908A00B315D0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9104519F25C0908A00B315D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		910451A225C0908A00B315D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		910451A425C0908A00B315D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910451A925C0908B00B315D0 /* themaquereauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = themaquereauTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910451AD25C0908B00B315D0 /* themaquereauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = themaquereauTests.swift; sourceTree = "<group>"; };
@@ -45,6 +50,13 @@
 		910451B425C0908B00B315D0 /* themaquereauUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = themaquereauUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910451B825C0908B00B315D0 /* themaquereauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = themaquereauUITests.swift; sourceTree = "<group>"; };
 		910451BA25C0908B00B315D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917E720F25C74AA6004B2597 /* JsonDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataResponse.swift; sourceTree = "<group>"; };
+		91E723B825C499C600107A59 /* DishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListView.swift; sourceTree = "<group>"; };
+		91E723C125C49C3100107A59 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		91E723C925C49E1600107A59 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		CFFBA4763C8D7D54F585FD30 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		CFFBA88B1AA37E6FCB6280AC /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		CFFBAD1B4D4C2D59A973E54D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,21 +107,15 @@
 		9104519A25C0908A00B315D0 /* themaquereau */ = {
 			isa = PBXGroup;
 			children = (
-				9104519B25C0908A00B315D0 /* themaquereauApp.swift */,
-				9104519D25C0908A00B315D0 /* ContentView.swift */,
+				91E723C025C49C1A00107A59 /* model */,
+				9104519B25C0908A00B315D0 /* TheMaquereauApp.swift */,
+				9104519D25C0908A00B315D0 /* HomeView.swift */,
 				9104519F25C0908A00B315D0 /* Assets.xcassets */,
 				910451A425C0908A00B315D0 /* Info.plist */,
-				910451A125C0908A00B315D0 /* Preview Content */,
+				91E723B825C499C600107A59 /* DishListView.swift */,
+				CFFBA05414FC2920C3B9268B /* Resources */,
 			);
 			path = themaquereau;
-			sourceTree = "<group>";
-		};
-		910451A125C0908A00B315D0 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				910451A225C0908A00B315D0 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		910451AC25C0908B00B315D0 /* themaquereauTests */ = {
@@ -128,6 +134,26 @@
 				910451BA25C0908B00B315D0 /* Info.plist */,
 			);
 			path = themaquereauUITests;
+			sourceTree = "<group>";
+		};
+		91E723C025C49C1A00107A59 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				91E723C125C49C3100107A59 /* Item.swift */,
+				91E723C925C49E1600107A59 /* Ingredient.swift */,
+				CFFBAD1B4D4C2D59A973E54D /* Data.swift */,
+				CFFBA4763C8D7D54F585FD30 /* Price.swift */,
+				917E720F25C74AA6004B2597 /* JsonDataResponse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CFFBA05414FC2920C3B9268B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBA88B1AA37E6FCB6280AC /* items.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				910451A325C0908A00B315D0 /* Preview Assets.xcassets in Resources */,
 				910451A025C0908A00B315D0 /* Assets.xcassets in Resources */,
+				CFFBABAF09FD78A49D840456 /* items.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9104519E25C0908A00B315D0 /* ContentView.swift in Sources */,
-				9104519C25C0908A00B315D0 /* themaquereauApp.swift in Sources */,
+				91E723B925C499C600107A59 /* DishListView.swift in Sources */,
+				91E723C225C49C3100107A59 /* Item.swift in Sources */,
+				91E723CA25C49E1600107A59 /* Ingredient.swift in Sources */,
+				9104519E25C0908A00B315D0 /* HomeView.swift in Sources */,
+				917E721025C74AA6004B2597 /* JsonDataResponse.swift in Sources */,
+				9104519C25C0908A00B315D0 /* TheMaquereauApp.swift in Sources */,
+				CFFBAAE45393E279BAA1FC1D /* Data.swift in Sources */,
+				CFFBA544A488874B4992CF2E /* Price.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +383,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -405,6 +438,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
