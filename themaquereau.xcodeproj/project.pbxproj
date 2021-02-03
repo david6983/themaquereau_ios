@@ -13,6 +13,7 @@
 		910451AE25C0908B00B315D0 /* themaquereauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910451AD25C0908B00B315D0 /* themaquereauTests.swift */; };
 		910451B925C0908B00B315D0 /* themaquereauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910451B825C0908B00B315D0 /* themaquereauUITests.swift */; };
 		917E721025C74AA6004B2597 /* JsonDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E720F25C74AA6004B2597 /* JsonDataResponse.swift */; };
+		91BCEADF25CB539200E43E1E /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCEADE25CB539200E43E1E /* ContactView.swift */; };
 		91E723B925C499C600107A59 /* DishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E723B825C499C600107A59 /* DishListView.swift */; };
 		91E723C225C49C3100107A59 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E723C125C49C3100107A59 /* Item.swift */; };
 		91E723CA25C49E1600107A59 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E723C925C49E1600107A59 /* Ingredient.swift */; };
@@ -51,6 +52,7 @@
 		910451B825C0908B00B315D0 /* themaquereauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = themaquereauUITests.swift; sourceTree = "<group>"; };
 		910451BA25C0908B00B315D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		917E720F25C74AA6004B2597 /* JsonDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataResponse.swift; sourceTree = "<group>"; };
+		91BCEADE25CB539200E43E1E /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		91E723B825C499C600107A59 /* DishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListView.swift; sourceTree = "<group>"; };
 		91E723C125C49C3100107A59 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		91E723C925C49E1600107A59 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				910451A425C0908A00B315D0 /* Info.plist */,
 				91E723B825C499C600107A59 /* DishListView.swift */,
 				CFFBA05414FC2920C3B9268B /* Resources */,
+				91BCEADE25CB539200E43E1E /* ContactView.swift */,
 			);
 			path = themaquereau;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				91E723C225C49C3100107A59 /* Item.swift in Sources */,
 				91E723CA25C49E1600107A59 /* Ingredient.swift in Sources */,
 				9104519E25C0908A00B315D0 /* HomeView.swift in Sources */,
+				91BCEADF25CB539200E43E1E /* ContactView.swift in Sources */,
 				917E721025C74AA6004B2597 /* JsonDataResponse.swift in Sources */,
 				9104519C25C0908A00B315D0 /* TheMaquereauApp.swift in Sources */,
 				CFFBAAE45393E279BAA1FC1D /* Data.swift in Sources */,

@@ -43,7 +43,7 @@ struct DishListView: View {
                     decoder.dateDecodingStrategy = .formatted(dateFormatter)
                     do {
                         let json = try decoder.decode(JsonDataResponse.self, from: data)
-                        dishes = json.data[0].items
+                        dishes = json.data[category].items
                     } catch {
                         print(error)
                     }
