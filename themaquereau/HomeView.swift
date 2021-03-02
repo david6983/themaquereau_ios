@@ -22,7 +22,7 @@ struct HomeView: View {
                 }
                 VStack(alignment: .center, spacing: 0) {
                     NavigationLink(
-                        destination: DishListView(category: 0, dishes: [])
+                        destination: DishListView(category: 0, title: "Nos entrées", dishes: [])
                     ) {
                         Text("Entrées")
                             .padding()
@@ -31,7 +31,7 @@ struct HomeView: View {
                     }
                     .padding()
                     NavigationLink(
-                        destination: DishListView(category: 1, dishes: [])
+                        destination: DishListView(category: 1, title: "Nos plats", dishes: [])
                     ) {
                         Text("Plats")
                             .padding()
@@ -40,7 +40,7 @@ struct HomeView: View {
                     }
                     .padding()
                     NavigationLink(
-                        destination: DishListView(category: 2, dishes: [])
+                        destination: DishListView(category: 2,title: "Nos desserts" ,dishes: [])
                     ) {
                         Text("Desserts")
                             .padding()

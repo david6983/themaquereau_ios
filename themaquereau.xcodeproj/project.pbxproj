@@ -13,6 +13,7 @@
 		910451AE25C0908B00B315D0 /* themaquereauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910451AD25C0908B00B315D0 /* themaquereauTests.swift */; };
 		910451B925C0908B00B315D0 /* themaquereauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910451B825C0908B00B315D0 /* themaquereauUITests.swift */; };
 		911E1E8025CC9B0500D767C0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 911E1E7F25CC9B0500D767C0 /* Podfile */; };
+		9156953825EEAA300081950E /* DishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9156953725EEAA300081950E /* DishDetailView.swift */; };
 		917E721025C74AA6004B2597 /* JsonDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E720F25C74AA6004B2597 /* JsonDataResponse.swift */; };
 		91BCEADF25CB539200E43E1E /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCEADE25CB539200E43E1E /* ContactView.swift */; };
 		91E723B925C499C600107A59 /* DishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E723B825C499C600107A59 /* DishListView.swift */; };
@@ -55,6 +56,7 @@
 		910451B825C0908B00B315D0 /* themaquereauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = themaquereauUITests.swift; sourceTree = "<group>"; };
 		910451BA25C0908B00B315D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		911E1E7F25CC9B0500D767C0 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9156953725EEAA300081950E /* DishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailView.swift; sourceTree = "<group>"; };
 		917E720F25C74AA6004B2597 /* JsonDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataResponse.swift; sourceTree = "<group>"; };
 		91BCEADE25CB539200E43E1E /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		91E723B825C499C600107A59 /* DishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				91E723B825C499C600107A59 /* DishListView.swift */,
 				CFFBA05414FC2920C3B9268B /* Resources */,
 				91BCEADE25CB539200E43E1E /* ContactView.swift */,
+				9156953725EEAA300081950E /* DishDetailView.swift */,
 			);
 			path = themaquereau;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				91BCEADF25CB539200E43E1E /* ContactView.swift in Sources */,
 				917E721025C74AA6004B2597 /* JsonDataResponse.swift in Sources */,
 				9104519C25C0908A00B315D0 /* TheMaquereauApp.swift in Sources */,
+				9156953825EEAA300081950E /* DishDetailView.swift in Sources */,
 				CFFBAAE45393E279BAA1FC1D /* Data.swift in Sources */,
 				CFFBA544A488874B4992CF2E /* Price.swift in Sources */,
 			);
