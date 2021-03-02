@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import URLImage
 
 struct DishListView: View {
     @State var category: Int
@@ -15,8 +16,28 @@ struct DishListView: View {
         NavigationView {
             List {
                 ForEach(dishes, id: \.self) { dish in
-                    Text(dish.name_fr)
-                        .padding()
+                    HStack {
+                        HStack {
+                            Text(dish.name_fr)
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                                .padding(.bottom, 70)
+                        }
+                        Spacer()
+                        if dish.images.indices.contains(0) && !dish.images[0].isEmpty {
+                            let imageUrl = URL(string: dish.images[0])
+                            URLImage(url: imageUrl!,
+                             content: { image in
+                                image
+                                    .resizable()
+                                    .frame(width: 100, height: 100)
+                             })
+                        } else {
+                            Image("maquereau_not_found")
+                                .resizable()
+                                .frame(width: 100, height: 100)
+                        }
+                    }
+                    .padding()
                 }
             }
         }.onAppear {
@@ -55,6 +76,6 @@ struct DishListView: View {
 
 struct DishListView_Previews: PreviewProvider {
     static var previews: some View {
-        DishListView(category: 0, dishes: [])
+        DishListView(category: 2, dishes: [])
     }
 }
